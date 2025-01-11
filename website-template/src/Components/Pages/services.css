@@ -1,0 +1,170 @@
+.image-container-services {
+    width: 100%;
+    height: auto; 
+    position: relative; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box; 
+    background-color: #1a1919;
+}
+.image-services {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(70%); 
+}
+
+
+.banner-services {
+    width: 70%; 
+    height: 20%; 
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px; 
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); 
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    border: 1px solid rgba(255, 255, 255, 0.25); 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+
+.img-text-services {
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px; 
+    font-family: 'Arial Narrow Bold', Impact, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+.img-text-services-row-1 {
+    position: absolute; 
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    z-index: 10; 
+}
+
+
+.glassbox {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 10px 20px; 
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.25); 
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.glassbox h2 {
+    color: #ffffff; 
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold', Impact, sans-serif;
+    letter-spacing: 1.5px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+
+.glassbox:hover {
+    cursor: pointer;
+
+    transform: scale(1.05);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
+}
+
+
+.toggle-box-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px; 
+    position: absolute;;
+    top: 80%;
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 2;
+    width: 90%; 
+}
+
+
+.toggle-box {
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.15); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.25); 
+    text-align: center; 
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Arial Narrow', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    opacity: 0; 
+    transform: scale(0.95); 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}
+
+
+.toggle-box.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.dhol-banner-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    max-height: 480px;
+    overflow: hidden;
+}
+
+.dhol-banner {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.dhol-text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+}
+
+.dhol-banner-container p {
+    color: white;
+    font-size: large;
+    text-align: center;
+    max-width: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
