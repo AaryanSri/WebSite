@@ -40,7 +40,7 @@ export const Reviews = () => {
       useEffect(() => {
         const fetchReviews = async () => {
           try {
-            const response = await fetch("http://localhost:3002/reviews");
+            const response = await fetch(process.env.BASE_URL + "/reviews");
             const data = await response.json();
             setReviews(data);
           } catch (error) {
