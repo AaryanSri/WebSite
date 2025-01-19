@@ -36,7 +36,7 @@ export const ContactMe = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: process.env.EMAIL_TO,
+          to: "suvansharma7@gmail.com",
           subject: "New Contact Request from${formData.name}",
           body: `
             Name: ${formData.name}
