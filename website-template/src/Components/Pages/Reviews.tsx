@@ -40,7 +40,7 @@ export const Reviews = () => {
       useEffect(() => {
         const fetchReviews = async () => {
           try {
-            const response = await fetch(process.env.API_BASE_URL + "/reviews");
+            const response = await fetch("https://sharmaproductions.onrender.com/reviews");
             const data = await response.json();
             setReviews(data);
           } catch (error) {
@@ -72,7 +72,7 @@ export const Reviews = () => {
         setLoading(true);
     
         try {
-          const response = await fetch(process.env.API_BASE_URL + "/submit-reviews", {
+          const response = await fetch("https://sharmaproductions.onrender.com/submit-reviews", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData),
@@ -90,7 +90,7 @@ export const Reviews = () => {
             setIsFormValid(false);
     
             // Refresh the reviews list
-            const updatedReviews = await fetch(process.env.API_BASE_URL + "/reviews");
+            const updatedReviews = await fetch("https://sharmaproductions.onrender.com/reviews");
             setReviews(await updatedReviews.json());
           } else {
             alert("Failed to submit review.");
