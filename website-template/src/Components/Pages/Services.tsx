@@ -40,17 +40,26 @@ export const Services = () => {
             </div>
             <div className="toggle-box-container">
                         <div className={`toggle-box ${activeBox === 'dhol' ? 'show' : ''}`}>
-                            <p>The Dhol is a double-headed drum played with sticks, known for its energetic sound.</p>
+                            <p>Dhol is a Indian percussionary instrument perfect for adding vibrance and excitement 
+                               to any event! 
+                               Suvan has performed dhol at 100+ events internationally!
+                            </p>
                         </div>
                         <div className={`toggle-box ${activeBox === 'tabla' ? 'show' : ''}`}>
-                            <p>The Tabla is a pair of hand drums used in classical and folk music.</p>
+                            <p>Tabla is a traditional Indian percussionary instrument perfect for creating a beautiful
+                                 and melodious atmosphere. This instrument is a great option for more sophisticated events 
+                                 like concerts, banquets, and receptions.
+                            </p>
                         </div>
                    
                         <div className={`toggle-box ${activeBox === 'bhangra' ? 'show' : ''}`}>
-                            <p>Bhangra is a traditional Punjabi dance that brings joy and energy to any occasion.</p>
+                            <p>Bhangra is a high-energy Punjabi folk dance that brings energy wherever it is performed. 
+                                Our nationally competitive team of up to 16 dancers performs at conferences, birthdays, 
+                                weddings, etc.
+                            </p>
                         </div>
                         <div className={`toggle-box ${activeBox === 'teaching' ? 'show' : ''}`}>
-                            <p>We offer lessons in music and dance to help you master these art forms.</p>
+                            <p>Tabla and Dhol personalized lessons continue to be in full swing!</p>
                         </div>
             
              </div>    
@@ -59,10 +68,8 @@ export const Services = () => {
         <div className="dhol-banner-container">
                 <img src={dholbanner} alt="Suvan playing dhol" className="dhol-banner"></img>
                 <div className="dhol-text-container"> 
-                    <p>With around a decade of experience, I love bringing
-                        the excitement of music to several events to elevate
-                        the host's occasion. I have been a part of weddings,
-                         musical festivals, performances, and more!
+                    <p>Dhol is a Indian percussionary instrument perfect for adding vibrance and excitement to any event! 
+                       Suvan has performed dhol at 100+ events internationally!
                     </p>
                     <p>
                         To find out more details about this service, please visit
@@ -73,10 +80,10 @@ export const Services = () => {
              </div>
              <div className="dhol-banner-container">
              <div className="dhol-text-container"> 
-                    <p>With around a decade of experience, I love bringing
-                        the excitement of music to several events to elevate
-                        the host's occasion. I have been a part of weddings,
-                         musical festivals, performances, and more!
+                    <p>Tabla is a traditional Indian percussionary instrument perfect 
+                       for creating a beautiful and melodious atmosphere. This instrument
+                        is a great option for more sophisticated events like concerts, 
+                        banquets, and receptions.
                     </p>
                     <p>
                         To find out more details about this service, please visit
@@ -89,10 +96,9 @@ export const Services = () => {
              <div className="dhol-banner-container">
                 <img src={dancingbanner} alt="Suvan playing dhol" className="dhol-banner"></img>
                 <div className="dhol-text-container"> 
-                    <p>With around a decade of experience, I love bringing
-                        the excitement of music to several events to elevate
-                        the host's occasion. I have been a part of weddings,
-                         musical festivals, performances, and more!
+                    <p>Bhangra is a high-energy Punjabi folk dance that brings energy
+                       wherever it is performed. Our nationally competitive team of up to
+                       16 dancers performs at conferences, birthdays, weddings, etc.
                     </p>
                     <p>
                         To find out more details about this service, please visit
@@ -103,10 +109,7 @@ export const Services = () => {
              </div>
              <div className="dhol-banner-container">
                 <div className="dhol-text-container"> 
-                    <p>With around a decade of experience, I love bringing
-                        the excitement of music to several events to elevate
-                        the host's occasion. I have been a part of weddings,
-                         musical festivals, performances, and more!
+                    <p>Tabla and Dhol personalized lessons continue to be in full swing!
                     </p>
                     <p>
                         To find out more details about this service, please visit
