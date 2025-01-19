@@ -40,7 +40,7 @@ export const Reviews = () => {
       useEffect(() => {
         const fetchReviews = async () => {
           try {
-            const response = await fetch(process.env.BASE_URL + "/reviews");
+            const response = await fetch(process.env.API_BASE_URL + "/reviews");
             const data = await response.json();
             setReviews(data);
           } catch (error) {
