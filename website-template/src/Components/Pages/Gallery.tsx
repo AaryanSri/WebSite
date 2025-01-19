@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../NavBar/NavBar"
 import EndingHeader from "../EndingHeader/EndingHeader"
 import './Gallery.css'

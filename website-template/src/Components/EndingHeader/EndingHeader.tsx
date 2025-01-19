@@ -1,6 +1,4 @@
-import React, {useState, useEffect} from 'react'
-import logo from '../../assets/samplelogo.avif'
-import {Link} from 'react-router-dom'
+
 import './EndingHeader.css'
 import instagram from "../../assets/instagram.png"
 import soundcloud from "../../assets/soundcloud.png"

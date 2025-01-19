@@ -1,4 +1,3 @@
-import NavBar from './Components/NavBar/NavBar';
 import {Route, Routes} from 'react-router-dom';
 import {  ContactMe } from './Components/Pages/ContactMe';
 import {  Services } from './Components/Pages/Services';

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import  {useState} from "react";
 import NavBar from '../NavBar/NavBar'
 import EndingHeader from '../EndingHeader/EndingHeader'
 import services1 from '../../assets/dhol/dhol16.jpeg'
