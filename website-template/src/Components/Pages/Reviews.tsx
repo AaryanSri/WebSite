@@ -72,7 +72,7 @@ export const Reviews = () => {
         setLoading(true);
     
         try {
-          const response = await fetch("http://localhost:3002/submit-reviews", {
+          const response = await fetch(process.env.API_BASE_URL + "/submit-reviews", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData),
@@ -90,7 +90,7 @@ export const Reviews = () => {
             setIsFormValid(false);
     
             // Refresh the reviews list
-            const updatedReviews = await fetch("http://localhost:3002/reviews");
+            const updatedReviews = await fetch(process.env.API_BASE_URL + "/reviews");
             setReviews(await updatedReviews.json());
           } else {
             alert("Failed to submit review.");

@@ -32,11 +32,11 @@ export const ContactMe = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:3002/send-review-email", {
+      const response = await fetch(process.env.API_BASE_URL + "/send-review-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: "darealgulp@gmail.com",
+          to: process.env.EMAIL_TO,
           subject: "New Contact Request from${formData.name}",
           body: `
             Name: ${formData.name}
