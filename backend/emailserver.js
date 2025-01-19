@@ -4,8 +4,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 3002;
 const mongoose = require("mongoose")
-
-const mongoUri = "mongodb+srv://sharmaproductions12:dbz-123-abd-l3d@cluster0.bzbhx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const mongoUri = process.env.DATABASE_URI
 mongoose.connect(mongoUri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -47,14 +46,14 @@ app.post("/submit-reviews", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "sharmaproductions12@gmail.com", 
-        pass: "mtag ydgp ihvg olcq", 
+        user: process.env.EMAIL_ID, 
+        pass: process.env.EMAIL_PASS, 
       },
     });
 
     const mailOptions = {
-      from: "sharmaproductions12@gmail.com",
-      to: "darealgulp@gmail.com",
+      from: process.env.EMAIL_ID,
+      to: process.env.EMAIL_TO,
       subject: `New Review Submitted by ${name}`,
       text: `
         Name: ${name}
@@ -87,13 +86,13 @@ app.post("/send-review-email", async (req, res) => {
       const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "sharmaproductions12@gmail.com",
-          pass: "mtag ydgp ihvg olcq",
+          user: process.env.EMAIL_ID,
+          pass: process.env.EMAIL_PASS,
         },
       });
   
       const mailOptions = {
-        from: "sharmaproductions12@gmail.com",
+        from: process.env.EMAIL_ID,
         to,
         subject,
         text: body,
