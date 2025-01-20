@@ -29,7 +29,7 @@
     text-overflow: ellipsis;
     white-space: nowrap; 
     font-style: italic;
-    font-family: 'Georgia', serif;
+    font-family: sans-serif;
     text-shadow: 5px 5px 6px rgba(0, 0, 0, 1.0); 
     z-index: 1; 
   }
@@ -37,7 +37,7 @@
   .review-name {
     flex: 1; 
     text-align: right;
-    font-family: 'Arial', sans-serif; 
+    font-family: sans-serif; 
     padding-right: 50px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
   }

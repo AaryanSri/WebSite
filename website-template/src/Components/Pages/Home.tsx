@@ -17,15 +17,18 @@ export const Home = () => {
          </div>
         </div>
         <div className="section">
-            <h2>Welcome to Sharma Productions! I am thrilled to have you visit. I've loved 
-                the art of music and dance my whole life and spreading Indian culture through
-                the services I provide to improve your events is an incredible fulfillment!
+            <h2>Welcome to Sharma Productions! Welcome to Sharma Productions! 
+                I am thrilled to have you here. With a deep-rooted passion for music and 
+                dance, I take pride in celebrating and sharing the richness of Indian culture 
+                through my services, designed to make your events truly unforgettable.
             </h2>
             <h2>
-                For a brief idea of what I do and how I can benefit your event, check out the Services section!
-                To see my previous performances and feedback, visit the Gallery and Reviews section!
-                If you would like to contact or book me, visit the contact me section! Otherwise, feel free to scroll down
-                and learn more about me!
+            Explore the Services section for a detailed overview of how I can bring creativity 
+            and elegance to your special occasion. To discover past performances and hear from 
+            delighted clients, visit the Gallery and Reviews sections. If you're interested in 
+            connecting or booking my services, the Contact Me section is just a click away.
+            Thank you for visiting—scroll down to learn more about my story and the inspiration
+             behind Sharma Productions!
             </h2>
         </div>
         <div className="banner-container">
@@ -38,18 +41,22 @@ export const Home = () => {
         </div>
         <div className="bio-container">
             <div className="bio">
-                <p > Suvan Sharma is an Indo-Guyanese artist that specializes in dhol, tabla, and bhangra. 
-                    Classically trained from the age of 8 years old, Suvan aims to spread his love for tabla 
-                    and dhol as he teaches multiple students a week with personalized lesson plans catered to 
-                    each individual. Suvan has also been academy trained in bhangra folk arts, and has been the
-                    captain of the University of South Florida’s nationally competitive bhangra team.
-
-</p>
+                <p > Suvan Sharma is a highly skilled Indo-Guyanese artist, 
+                    classically trained in tabla and dhol from the age of eight.
+                     With years of experience and a deep passion for these traditional 
+                     instruments, Suvan shares his expertise by offering personalized lessons
+                      tailored to the unique needs of each student. In addition to his musical
+                       accomplishments, Suvan has been formally trained in bhangra folk arts and
+                        served as the captain of the University of South Florida’s nationally
+                       competitive bhangra team.
+                </p>
             <p>
-            Performing at over 100 events all around the world and working with countless DJs and planners, 
-            Suvan is dedicated to ensuring the event is memorable through whatever service is asked from the client.
-             Committed to creating a sense of communal appreciation for culture, Suvan’s goal is to captivate audiences with
-             heartfelt and unforgettable performances, whether it is music or dance, and have fun in the process!
+            Suvan has performed at over 100 events worldwide, collaborating with esteemed DJs and event
+             planners to deliver unforgettable experiences. His dedication to excellence ensures every event
+              he contributes to is both unique and memorable. Driven by a mission to foster a communal appreciation
+               for culture, Suvan captivates audiences with heartfelt performances that blend artistic mastery with a 
+               joyous celebration of tradition. Whether performing, teaching, or collaborating, Suvan Sharma is committed
+                to inspiring a deep connection to culture and creating lasting memories for all involved.
             </p>
             </div>
             <div className="bio-image">

@@ -121,7 +121,7 @@ export const Reviews = () => {
             <img src={home2} alt="Suvan posing with long hair" className="banner-image"/>
             <div className="banner-services">
                 <div className="img-text-services">
-                     <h2>Customer Reviews</h2>
+                     <h2>Client Reviews</h2>
                 </div>
              </div>
         </div>
@@ -143,7 +143,7 @@ export const Reviews = () => {
       <div className="form-container">
         <h1>Submit A Review!</h1>
         <p>
-            Please submit a review to give me feedback on how to improve!
+        Your feedback means a lot to me! Please share your experience and let me know how I’ve helped you. 
         </p>
         <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name</label>

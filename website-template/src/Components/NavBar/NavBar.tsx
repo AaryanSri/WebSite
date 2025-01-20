@@ -2,9 +2,11 @@ import {useState, useEffect} from 'react'
 import './NavBar.css'
 import logo from '../../assets/logo.jpeg'
 import {Link} from 'react-router-dom'
-
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+    const navigate = useNavigate();
+
     const[isCollapsed, setIsCollapsed] = useState(false);
     const[openMenu, setOpenMenu] = useState(false);
 
@@ -29,7 +31,7 @@ const NavBar = () => {
 
     return (
         <div className={`navbar ${isCollapsed ? 'collapsed' : ''}`}>
-            <img src={logo} alt="Company Logo" className="logo" />
+            <img src={logo} alt="Company Logo" className="logo"  onClick={() => navigate("/")} />
             <div className={`menu ${isCollapsed ? 'collapsed' : ''}`} onClick={()=> {
                 setOpenMenu(!openMenu)
             }}>

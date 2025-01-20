@@ -35,7 +35,7 @@ export const Services = () => {
                         <h2> Bhangra </h2>
                         </div>
                         <div className="glassbox" onClick={() => toggleBox('teaching')}>
-                        <h2> Teaching </h2>
+                        <h2> Lessons </h2>
                         </div>       
             </div>
             <div className="toggle-box-container">
@@ -72,9 +72,8 @@ export const Services = () => {
                        Suvan has performed dhol at 100+ events internationally!
                     </p>
                     <p>
-                        To find out more details about this service, please visit
-                        the contact me page and give me your information so I can reach
-                        out!
+                    For more information about this service, please visit the Contact Me page and provide your details.
+                     I will be happy to reach out to you promptly!  
                     </p>
                 </div>
              </div>
@@ -86,9 +85,8 @@ export const Services = () => {
                         banquets, and receptions.
                     </p>
                     <p>
-                        To find out more details about this service, please visit
-                        the contact me page and give me your information so I can reach
-                        out!
+                    For more information about this service, please visit the Contact Me page and
+                     provide your details. I will be happy to reach out to you promptly!  
                     </p>
                 </div>
                 <img src={tablabanner} alt="Suvan playing tabla" className="dhol-banner"></img>
@@ -101,9 +99,8 @@ export const Services = () => {
                        16 dancers performs at conferences, birthdays, weddings, etc.
                     </p>
                     <p>
-                        To find out more details about this service, please visit
-                        the contact me page and give me your information so I can reach
-                        out!
+                    For more information about this service, please visit the Contact Me page and
+                     provide your details. I will be happy to reach out to you promptly!  
                     </p>
                 </div>
              </div>
@@ -112,9 +109,8 @@ export const Services = () => {
                     <p>Tabla and Dhol personalized lessons continue to be in full swing!
                     </p>
                     <p>
-                        To find out more details about this service, please visit
-                        the contact me page and give me your information so I can reach
-                        out!
+                    For more information about this service, please visit the Contact Me page
+                     and provide your details. I will be happy to reach out to you promptly!  
                     </p>
                 </div>
                 <img src={teachingbanner} alt="Suvan playing dhol" className="dhol-banner"></img>

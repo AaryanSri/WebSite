@@ -75,7 +75,7 @@ export const ContactMe = () => {
           <h1>Sharma Productions</h1>
           <p>
             Please fill out the form below with the details of your event and
-            I'll reach out with more information!
+            I'll reach out with more information promptly!
           </p>
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name</label>
