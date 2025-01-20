@@ -1,6 +1,6 @@
 import './Home.css'
 import NavBar from '../NavBar/NavBar'
-import home1 from '../../assets/home1.jpg'
+import home1 from '../../assets/home0.jpg'
 import home2 from '../../assets/home2.jpg'
 import home4 from '../../assets/home4.jpg'
 import EndingHeader from '../EndingHeader/EndingHeader'
