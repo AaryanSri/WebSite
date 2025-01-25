@@ -154,13 +154,13 @@ body, html {
         max-height: 20.25rem;
     }
     .banner {
-        width: 29.5rem;
-        height: 10.875rem;
+        width: 22.5rem;
+        height: 8.875rem;
         top: 30%;
     }
     
     .img-text h2 {
-        font-size: 2.625rem;
+        font-size: 1.125rem;
     }
     .section {
         width: 100%;
@@ -175,7 +175,7 @@ body, html {
     
     .section h2 {
         font-family:sans-serif;
-        font-size: 0.85rem;
+        font-size: 0.55rem;
         top: 50%;
         left: 50%;
         margin-left: 3.125rem;
@@ -190,7 +190,7 @@ body, html {
         padding: 0;
         width: 100%;
         display: block;
-        max-height: 15rem;
+        max-height: 10rem;
         overflow: hidden;
         text-align: center;
     }
@@ -201,12 +201,12 @@ body, html {
         flex: none; /* Reset flex behavior */
         text-align: center; /* Center text for mobile */
         padding: 15px;
-        font-size: 0.9rem; /* Scale down font size */
+        font-size: 0.5rem; /* Scale down font size */
     }
 
     .bio p {
         width: 90%; 
-        font-size: 9px;
+        font-size: 7px;
         margin: 0 0 10px 0; /* Adjust spacing between paragraphs */
     }
 
