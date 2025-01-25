@@ -151,11 +151,12 @@ body, html {
 }
 @media (max-width: 878px) {
     .image-container{
+        margin-top: 70px;
         max-height: 20.25rem;
     }
     .banner {
         width: 22.5rem;
-        height: 8.875rem;
+        height: 6.875rem;
         top: 30%;
     }
     

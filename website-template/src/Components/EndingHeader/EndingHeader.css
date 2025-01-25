@@ -52,10 +52,12 @@
         flex-direction: row; /* Keep images horizontal */
         justify-content: center;
         gap: 10px;
+        padding: 0px;
     }
 
     .right-content {
         align-items: center; /* Center-align right content */
+        padding-left: 10px;
         text-align: center;
     }
 

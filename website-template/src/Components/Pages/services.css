@@ -225,7 +225,7 @@ body, html {
         margin: 0 auto; /* Center-align the text container */
         display: flex;
         flex-direction: column;
-        gap: 20px; /* Add spacing between paragraphs */
+        gap: 10px; /* Add spacing between paragraphs */
         padding: 0 20px; /* Add consistent padding on left and right */
         box-sizing: border-box;
     }
