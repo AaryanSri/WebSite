@@ -45,3 +45,34 @@
     justify-content: center;
     padding-right: 40px;
 }
+
+@media (max-width: 878px) {
+
+    .left-content {
+        flex-direction: row; /* Keep images horizontal */
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .right-content {
+        align-items: center; /* Center-align right content */
+        text-align: center;
+    }
+
+    .ending-image-left {
+        width: 80px; /* Scale down images for smaller screens */
+    }
+
+    .bar1 img {
+        width: 25px; /* Smaller icons */
+        height: 25px;
+    }
+
+    .bar1 p {
+        font-size: 12px; /* Smaller text size */
+    }
+    .EndingText h1 {
+        font-size: 20px;
+    }
+
+}

@@ -168,3 +168,60 @@ body, html {
     max-width: 200px;
     font-family:sans-serif;
 }
+
+@media (max-width: 878px) {
+    .img-text-services {
+        font-size: 15px; 
+
+    }
+    .glassbox h2 {
+        font-size: 10px;
+    }
+    .banner-services {
+        height: 10%;
+        widtH: 70%;
+    }
+    .toggle-box {
+        margin-top: 5px;
+        padding: 10px;
+        font-size: 7px;
+    }
+    .img-text-services-row-1 {
+        top: 65%;
+     
+    }
+    
+    .dhol-banner {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .dhol-banner-container {
+        display: flex;
+        align-items: center;
+        gap: 20px; /* Adjust gap for better spacing */
+        position: relative;
+        height: 150px;
+        overflow: hidden;
+        box-sizing: border-box; /* Ensure padding is included in width/height */
+    }
+    
+    .dhol-text-container {
+        width: 100%; /* Make text take up full width */
+        max-width: 800px; /* Constrain the maximum width */
+        margin: 0 auto; /* Center-align the text container */
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Add spacing between paragraphs */
+        padding: 0 20px; /* Add consistent padding on left and right */
+        box-sizing: border-box;
+    }
+    
+    .dhol-banner-container p {
+        color: white;
+        font-size: 10px; /* Increase font size for readability */
+        margin: 0; /* Remove any extra margins */
+    }
+    
+}

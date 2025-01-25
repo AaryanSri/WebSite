@@ -33,6 +33,7 @@ const NavBar = () => {
         <div className={`navbar ${isCollapsed ? 'collapsed' : ''}`}>
             <img src={logo} alt="Company Logo" className="logo"  onClick={() => navigate("/")} />
             <div className={`menu ${isCollapsed ? 'collapsed' : ''}`} onClick={()=> {
+                console.log("toggling menu:" + !openMenu);
                 setOpenMenu(!openMenu)
             }}>
                 <span></span>

@@ -7,7 +7,7 @@ body, html {
 }
 .image-container{
     width: 100%;
-    max-height: 900px;
+    max-height: 56.25rem;
     overflow: hidden;
 }
 
@@ -18,19 +18,19 @@ body, html {
 }
 
 .banner {
-    width: 600px;
-    height: 350px;
+    width: 37.5rem;
+    height: 21.875rem;
     background: inherit;
     position: absolute;
     overflow: hidden;
     top: 60%;
     left: 50%;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     transform: translate(-50%, -50%);
-    box-shadow: inset 0 4px 30px  rgba(0,0,0, 0.1 );
+    box-shadow: inset 0 0.25rem 1.875rem  rgba(0,0,0, 0.1 );
     border: 1px solid rgb(255,255,255, 0.3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(0.625rem);
+    -webkit-backdrop-filter: blur(0.625rem);
 }
 
 .img-text {
@@ -39,40 +39,40 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 500px;
+    width: 31.25rem;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 .img-text h2 {
     color: #ffffff;
-    margin: 15px;
-    font-size: 58px;
-    letter-spacing: 2px;
+    margin: 0.938rem;
+    font-size: 3.625rem;
+    letter-spacing: 0.125rem;
     background: inherit;
     opacity: 70%;
     font-family: sans-serif;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+    text-shadow: 0.313rem 0.313rem 0.625rem rgba(0, 0, 0, 0.9);
     cursor: pointer;
 }
 
 .section {
     width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 18.75rem;
     text-align: center;
     background-color: #210b0a;;
     position: relative;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     margin: 0;
 }
 
 .section h2 {
     font-family:sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     top: 50%;
     left: 50%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
     font-weight:300;
     color: #ffffff;
     opacity: 79%;
@@ -84,7 +84,7 @@ body, html {
     padding: 0;
     width: 100%;
     display: block;
-    max-height: 400px;
+    max-height: 25rem;
     overflow: hidden;
     text-align: center;
 }
@@ -102,9 +102,9 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 500px;
+    width: 31.25rem;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .bio-container {
@@ -112,11 +112,11 @@ body, html {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-height: 500px;
+    max-height: 31.25rem;
 }
 
 .bio {
-    padding-left: 50px;
+    padding-left: 3.125rem;
     flex: 1;
     text-align: center;
     display: flex;
@@ -128,7 +128,7 @@ body, html {
     box-sizing: border-box;
 }
 .bio p {
-    width: 800px;
+    width: 50rem;
 }
 
 .bio-image {
@@ -143,9 +143,82 @@ body, html {
     flex: 1;
     width: 100%;
     max-width: 100%;
-    max-height: 600px; 
+    max-height: 37.5rem; 
     height: auto;
     object-fit: cover;
     margin: 0; 
     padding: 0;
+}
+@media (max-width: 878px) {
+    .image-container{
+        max-height: 20.25rem;
+    }
+    .banner {
+        width: 29.5rem;
+        height: 10.875rem;
+        top: 30%;
+    }
+    
+    .img-text h2 {
+        font-size: 2.625rem;
+    }
+    .section {
+        width: 100%;
+        height: auto;
+        max-height: 16.75rem;
+        text-align: center;
+        background-color: #210b0a;;
+        position: relative;
+        padding: 1.25rem 0;
+        margin: 0;
+    }
+    
+    .section h2 {
+        font-family:sans-serif;
+        font-size: 0.85rem;
+        top: 50%;
+        left: 50%;
+        margin-left: 3.125rem;
+        margin-right: 3.125rem;
+        font-weight:300;
+        color: #ffffff;
+        opacity: 79%;
+    }
+    .banner-container {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+        max-height: 15rem;
+        overflow: hidden;
+        text-align: center;
+    }
+    .bio-container {
+        height: 15.25rem;
+    }
+    .bio {
+        flex: none; /* Reset flex behavior */
+        text-align: center; /* Center text for mobile */
+        padding: 15px;
+        font-size: 0.9rem; /* Scale down font size */
+    }
+
+    .bio p {
+        width: 90%; 
+        font-size: 9px;
+        margin: 0 0 10px 0; /* Adjust spacing between paragraphs */
+    }
+
+    .bio-image {
+        height: 100%; /* Allow the image to take full width */
+    }
+
+    .bio-image1 {
+        height: 100%; /* Adjust height for mobile screens */
+        max-height: 250px; /* Prevent oversized images */
+        object-fit: cover; /* Maintain aspect ratio */
+    }
+    
+
 }
