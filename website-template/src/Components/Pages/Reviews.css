@@ -54,6 +54,7 @@
 }
 @media (max-width: 768px) {
     .review-card {
+        height: auto;
         padding: 15px;
         font-size: 0.9rem; /* Adjust font size for smaller screens */
     }
