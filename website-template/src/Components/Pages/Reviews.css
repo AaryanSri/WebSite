@@ -22,17 +22,6 @@
  
   
   
-  .review-message {
-    padding-left: 20px;
-    flex: 0 0 100px; 
-    max-width: 100px; 
-    text-overflow: ellipsis;
-    white-space: nowrap; 
-    font-style: italic;
-    font-family: sans-serif;
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 1.0); 
-    z-index: 1; 
-  }
   
   .review-name {
     flex: 1; 
@@ -45,3 +34,23 @@
     margin-top: 100px;
 }
 
+.review-message {
+  flex: 0 1 800px; /* Allow it to grow beyond 200px */
+  max-width: 100%; 
+  font-style: italic;
+  font-family: sans-serif;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 1.0); 
+  z-index: 1; 
+  overflow-wrap: break-word; /* Allow breaking at word boundaries */
+  word-wrap: break-word;
+  white-space: normal; /* Allow text wrapping */
+  padding: 10px; /* Add padding to keep it spacious */
+}
+
+/* Increase the height of the card when text grows */
+@media (min-width: 801px) {
+  .review-card {
+      height: auto;
+      min-height: 120px;
+  }
+}

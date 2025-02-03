@@ -17,7 +17,7 @@ export const Home = () => {
          </div>
         </div>
         <div className="section">
-            <h2>Welcome to Sharma Productions! Welcome to Sharma Productions! 
+            <h2>Welcome to Sharma Productions!
                 I am thrilled to have you here. With a deep-rooted passion for music and 
                 dance, I take pride in celebrating and sharing the richness of Indian culture 
                 through my services, designed to make your events truly unforgettable.
