@@ -186,7 +186,6 @@ export const Reviews = () => {
             placeholder="Add Your Review..."
             onChange={handleChange}
             rows={5}
-            maxLength={100}
             required
             ></textarea>
 
