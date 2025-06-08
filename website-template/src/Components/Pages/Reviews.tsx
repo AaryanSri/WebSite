@@ -102,12 +102,6 @@ export const Reviews = () => {
         }
       };
     
-      const images = [
-        dhol11,
-        dance8,
-        dance10,
-        dance4
-      ]
 
     return <div>
       <NavBar />
