@@ -116,29 +116,6 @@ export const Reviews = () => {
 
     return <div>
       <NavBar />
-      <div className="reviews-list">
-      <div className="banner-container">
-            <img src={home2} alt="Suvan posing with long hair" className="banner-image"/>
-            <div className="banner-services">
-                <div className="img-text-services">
-                     <h2>Client Reviews</h2>
-                </div>
-             </div>
-        </div>
-
-        {reviews.length === 0 ? (
-            <p>No reviews available yet.</p>
-        ) : (
-            reviews.map((review, index) => (
-            <div key={index} className="review-card"
-            style= {{ backgroundImage: `url(${getRandomImage()})`}}>
-             <div className="review-message">{"\"" + review.message + "\""}</div>
-          <div className="review-name">{"-" + review.name}</div>
-
-            </div>
-            ))
-        )}
-        </div>
       <div className="container">
       <div className="form-container">
         <h1>Submit A Review!</h1>
@@ -194,8 +171,37 @@ export const Reviews = () => {
                 </button>
         </form>
         </div>
-     </div>
-      
-      <EndingHeader />
+      <div className="reviews-list">
+      <div className="banner-container">
+            <img src={home2} alt="Suvan posing with long hair" className="banner-image"/>
+            <div className="banner-services">
+                <div className="img-text-services">
+                     <h2>Client Reviews</h2>
+                     
+                </div>
+             </div>
+        </div>
+        {reviews.length === 0 ? (
+            <p>No reviews available yet.</p>
+        ) : (
+          reviews.map((review, index) => (
+            <div key={index} className="comment-container">
+              <div className="avatar" />
+              <div className="comment-content">
+                <div className="comment-header">
+                  <span className="comment-name">{review.name}</span>
+                  <span className="comment-date">{review.date}</span>
+                </div>
+                <div className="comment-message">{review.message}</div>
+              </div>
+            </div>
+            ))
+        )}
+        </div>
+        <EndingHeader />
+        </div>
+
+        
+
     </div>
 }

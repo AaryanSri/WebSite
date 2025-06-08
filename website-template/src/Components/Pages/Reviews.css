@@ -64,3 +64,45 @@
         margin-top: 5px;
     }
 }
+.comment-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 10px auto 10px auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.comment-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.comment-name {
+  font-weight: bold;
+}
+
+.comment-date {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.comment-message {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #222;
+}
