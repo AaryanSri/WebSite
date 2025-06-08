@@ -109,11 +109,6 @@ export const Reviews = () => {
         dance4
       ]
 
-      const getRandomImage = () => {
-        const randomIndex = Math.floor(Math.random() * images.length);
-        return images[randomIndex];
-      };
-
     return <div>
       <NavBar />
       <div className="container">
