@@ -4,10 +4,6 @@ import EndingHeader from "../EndingHeader/EndingHeader"
 import React, {useState, useEffect} from "react";
 import "./Reviews.css"
 import home2 from '../../assets/contactbanner.png'
-import dhol11 from '../../assets/dhol/dhol11.jpeg'
-import dance8 from '../../assets/dance/dance8.jpeg'
-import dance10 from '../../assets/dance/dance10.jpeg'
-import dance4 from '../../assets/dance/dance4.jpeg'
 
 
 export const Reviews = () => {
